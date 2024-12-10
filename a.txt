@@ -1,5 +1,16 @@
 #include<stdio.h>
 int main()
 {
+<<<<<<< HEAD
 printf("hello word");
+=======
+int a,b;
+printf("enter the value for a andd b");
+scanf("%d %d",&a,&b);
+printf("before : A=%d,B=%d,a,b);
+a=a+b;
+b=b-a;
+a=a-b;
+printf("after : A=%d,B=%d",a,b);
+>>>>>>> a9a66f5ee8b90f1d6d879bcaeb6ef222dc413487
 }
